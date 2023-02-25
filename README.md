@@ -35,4 +35,4 @@ PHP版本建议最好为PHP-56。
 如果要管理用户或聊天记录，请登录数据库查看。
 
 # License
-本仓库基于[Apache License 2.0(https://github.com/SBsoft-Internet-Technology/Note-chat/blob/main/LICENSE)。
+本仓库基于[Apache License 2.0](https://github.com/SBsoft-Internet-Technology/Note-chat/blob/main/LICENSE)。
