@@ -1,47 +1,38 @@
-# SYSTEMSGT
+# Note Chat
+一个简单的web端即时聊天软件。
 
-Codigo fuente de aplicación CHAT - SYSTEMSGT
+# 这是什么？
+一个简单的web端即时聊天软件。
+此仓库基于[SYSTEMSGT的chat-app](https://github.com/SYSTEMSGT/chat-app)，由[rong6](https://github.com/rong6)、[xiaojiang233](https://github.com/xiaojiangxj233)汉化，最终变成了现在的“Note Chat（纸条聊天）”。
 
-## Lenguajes
-
+# 使用语言
 * HTML
 * CSS
 * PHP
-* JS
+* JavaScript
 * MySQL
 
-### Pre-requisitos 📋
+# 如何使用？
+将本仓库的代码下载下来，然后新建个数据库，并将根目录的```chatapp.sql```导入到数据库。
 
-Para poder utilizar esta aplicación necesitas:
-
-* Editor de código
-* Servidor para aplicaciones web
-* Base de datos (ya incluye el archivo .sql)
-
-## Versiones
-
-Para todas las versiones disponibles, mira los [releases en este repositorio](https://github.com/SYSTEMSGT/chat-app/releases).
-
-## Autor
-
-* **Coding Nepal** - [CodingNepal](https://www.codingnepalweb.com/)
-
-## Editor
-* **Pablo Girón** - [pablogirongt](https://github.com/pablogirongt)
-
-_También puedes ver la lista de todos los [contribuyentes](https://github.com/SYSTEMSGT/chat-app/graphs/contributors) quíenes han participado en este proyecto._
-
-## Versiones
-
-Demo disponible [aquí](https://chat.systemsgt.com/).
-
-## Licencia
-
-Este proyecto está bajo la Licencia (Apache) - Mira el archivo LICENSE para más detalles.
-
+进入```/php/config.php```，修改```hostname``` ```username``` ```password``` ```dbname```的值，依次为：
 ```
-Si tienes ideas de como mejorar la aplicación, por favor envíanos un mensaje a soporte@systemsgt.com.
+hostname = "数据库地址"
+username = "数据库用户名"
+password = "数据库密码"
+dbname = "数据库名"
 ```
 
----
-Desarrollado por [SYSTEMSGT](https://github.com/systemsgt).
+最后访问你的网站即可。
+
+# 常见问题
+## PHP版本？
+PHP版本建议最好为PHP-56。
+## 注册报错？
+如注册报错请检查数据库配置是否正确。
+## 如何进入后台？
+没有后台，仓库中的“admin”是我加的，里面啥内容自己看吧……
+如果要管理用户或聊天记录，请登录数据库查看。
+
+# License
+本仓库基于[Apache License 2.0(https://github.com/SBsoft-Internet-Technology/Note-chat/blob/main/LICENSE)。
